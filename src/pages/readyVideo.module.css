@@ -1,0 +1,85 @@
+.readyVideo {
+	background-color: #fff;
+	position: relative
+}
+nav {
+  display: flex;
+  color: #000;
+  justify-content: space-between;
+  padding: 0 5rem;
+  align-items: center;
+  border-bottom: 1px solid #9999;}
+
+.centerItems {
+  display: flex;
+}
+.centerItems p:nth-child(1) {
+  padding-right: 1rem;
+}
+
+.content {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 5rem;
+	padding: 0 3rem;
+}
+
+.nameSection {
+	margin-bottom: 1.5rem;
+}
+
+
+.nameSection h3, .nameSection p  {
+	margin: 0;
+}
+
+.edit {
+	display: flex;
+	align-items: center;
+}
+
+.edit h3 {
+	padding-right: .7rem;
+	color: rgba(65, 60, 109, 1);
+}
+
+input {
+	margin-right: .5rem;
+}
+
+input, button {
+	padding: .5rem .3rem;
+	border-radius: 12px;
+	border: 1px solid #c0c2c4;
+}
+
+.send {
+	background: rgba(96, 92, 132, 1);
+	color: white;
+}
+
+.socials img {
+	padding-right: .5rem;
+	width: 7rem;
+	height: 2rem;
+}
+
+.conclusion {
+	text-align: center;
+	padding: 5rem 25rem;
+}
+
+.conclusion button {
+	background-color: #120B48;
+	color: white;
+}
+
+.conclusion p {
+	font-size: 1.5rem;
+	color: #7E7E7E;
+	font-weight: bolder;
+}
+
+.conclusion span {
+	color: #120B48;
+}

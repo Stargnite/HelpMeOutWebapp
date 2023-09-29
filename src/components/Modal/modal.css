@@ -1,0 +1,91 @@
+.overlay {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(21, 14, 40, 0.93);
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+}
+
+.modal {
+  border-radius: 12px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 25px;
+  max-width: 30rem;
+  background: white;
+
+  flex: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.7rem;
+  text-align: center;
+}
+
+.modal-content {
+  background: white;
+}
+
+
+.successful,
+.success-text {
+  position: relative;
+  background: transparent;
+  color: rgba(20, 20, 20, 1);
+}
+
+.close-modal {
+  color: rgba(18, 11, 72, 1);
+  cursor: pointer;
+  border: none;
+  transition: all 0.3s ease;
+  margin-bottom: 2rem;
+  float: right;
+  width: 2rem;
+  height: 2rem;
+}
+
+
+.send-vid {
+  width: 10rem;
+  font-size: 1rem;
+  margin-bottom: 2rem;
+  background: rgba(18, 11, 72, 1);
+  color: white;
+}
+
+.create {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: rgba(126, 126, 126, 1);
+}
+
+.create span {
+  color: #120B48;
+}
+
+
+@media (max-width: 520px) {
+  .modal {
+    /* padding: */
+    max-width: 20rem;
+  }
+
+  .success-img {
+    max-width: 12rem;
+    max-height: 10rem;
+  }
+
+.modal-content h1 {
+  font-size: 1.4rem;
+  margin-top: 1rem;
+}
+
+.modal-content p {
+  font-size: 1rem;
+}
+
+}
