@@ -1,5 +1,5 @@
 import classes from "./features.module.css";
-import StartRecord from "./../../assets/icons/StartRecord.svg";
+import StartRecord from "./../../assets/icons/startRecord.svg";
 import Share from "./../../assets/icons/share.svg";
 import Revisit from "./../../assets/icons/revisit.svg";
 import FeaturesImg from "./../../assets/images/features-img.png";
