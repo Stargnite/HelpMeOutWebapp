@@ -4,7 +4,7 @@ import { BiEdit, BiSolidCopy } from "react-icons/bi";
 import FaceBook from "./../assets/images/facebook.svg";
 import Whatsapp from "./../assets/images/whatsapp.svg";
 import Telegram from "./../assets/images/telegram.svg";
-import RightContent from "./../assets/images/rIghtContent.svg";
+import RightContent from "./../assets/images/rightContent.svg";
 import Footer from "../components/Footer/Footer";
 import Modal from "../components/Modal/Modal";
 import { useState } from "react";
