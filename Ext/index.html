@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="icon" type="image/svg+xml" href="favicon.png" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./index.css" />
+	<link rel="manifest" href="./manifest.json" />
+	<title>HelpMeOut</title>
+</head>
+<body>
+	<div class='popup'>
+		<nav>
+		  <div class="logo">
+			<img src='./popupLogo.svg' alt="logo" />
+		  </div>
+		  <div class="setting-cancel">
+			<div>
+				<i class="fa-solid fa-gear fa-lg" color="rgba(18, 11, 72, 1)"></i>
+			</div>
+			  <i class="fa-solid fa-xmark cancel fa-lg" id="cancel"></i>
+			</div>
+		  </div>
+		</nav>
+		<p class="desc">
+		  This extension helps you record <br /> and share help videos with ease.
+		</p>
+  
+		<div class="choose-tab">
+		  <div class='cont' id="whole-screen">
+			<i class="fa-solid fa-tv tab-icon fa-2x"></i>
+			<p>Full screen</p>
+		  </div>
+		  <div class="cont" id="tab">
+			<i class="fa-regular fa-clone tab-icon fa-2x"></i>
+			<p>Current Tab</p>
+		  </div>
+		</div>
+  
+		<div class="toggle">
+		  <div class="camera">
+			<i class="fa-solid fa-video icon fa-lg"></i>
+			<p>Camera</p>
+		  </div>
+		  <div class="toggle-btn btn">
+			<div
+			  class="toggle-circle"
+			  id="toggle-camera"
+			></div>
+		  </div>
+		</div>
+  
+		<div class="toggle">
+		  <div class="camera">
+			<i class="fa-solid fa-microphone icon fa-lg"></i>
+			<p>Audio</p>
+		  </div>
+		  <div class="toggle-btn btn">
+			<div
+			class="toggle-circle"
+			id="toggle-audio"
+			></div>
+		  </div>
+		</div>
+  
+		<button class="record-btn btn" id="startRecording">
+		  Start Recording
+		</button>
+	  </div>
+	  <script src="popup.js"></script>
+	  <script src="animations.js"></script>
+</body>
+</html>

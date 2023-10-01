@@ -1,0 +1,40 @@
+.panel {
+  display: flex;
+  align-items: center;
+  align-self: center;
+  justify-content: center;
+  width: 20rem;
+  /* height: 3rem; */
+  padding: 1rem .5rem;
+  background-color: rgba(0, 0, 0, 1);
+  border-radius: 30px;
+  position: absolute;
+  color: white;
+}
+
+.time {
+	font-family: sans-serif;
+	padding-right: 1rem;
+	margin-right: 1rem;
+	border-right: 1px solid white;
+}
+
+button {
+	background: white;
+	padding: .5rem;
+	border-radius: 50%;
+	border: none;
+	margin: .4rem;
+	max-height: 3rem;
+	cursor: pointer;
+}
+
+button img {
+	width: 1.5rem;
+	height: 1.5rem;
+}
+
+
+.del-btn {
+	background: gray;
+}

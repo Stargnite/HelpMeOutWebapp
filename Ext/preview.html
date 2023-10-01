@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Preview</title>
+</head>
+<body>
+	<video id="previewVideo" controls></video>
+	<button id="saveButton">Save to API</button>
+  
+	<!-- <script>
+	  document.addEventListener("DOMContentLoaded", () => {
+		const previewVideo = document.getElementById("previewVideo");
+		const saveButton = document.getElementById("saveButton");
+  
+		// Get the recorded chunks from the background script
+		chrome.runtime.getBackgroundPage((backgroundPage) => {
+		  const recordedChunks = backgroundPage.recordedChunks;
+  
+		  // Create a Blob from the recorded chunks
+		  const previewBlob = new Blob(recordedChunks, { type: "video/webm" });
+  
+		  // Display the preview in the video element
+		  previewVideo.src = URL.createObjectURL(previewBlob);
+  
+		  // Handle saving to the API when the button is clicked
+		  saveButton.addEventListener("click", () => {
+			// Implement your API saving logic here
+			console.log("Saving to API...");
+		  });
+		});
+	  });
+	</script> -->
+	<script src="popup.js"></script>
+</body>
+</html>
